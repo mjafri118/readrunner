@@ -12,7 +12,11 @@ _____________________________________
 (Evan)
 
 ## How we built it
-(Ryan)
+We built ReadRunner all with Python 3 on Jupyter notebook because we all have experience using it in our coursework and wanted to expand the capabilities of Jupyter Notebook beyond what we were doing in class.
+
+We used the newspaper library to scrape the text from articles that we inputted into our program and then we parsed through this text to make the color of the middle letter red. This middle letter is colored red so that the reader's focus is solely on the middle of the display and they use their peripheral vision to read the words as they come.
+
+We displayed the words one at a time at a certain word per minute rate using Matplotlib and created an MP4 video that we could export and download into any of our devices.
 
 ## How to use
 Launch _ReadRunner Playground_ as a Jupyter notebook (Python 3). Run the first fall to launch the user interface:
@@ -31,4 +35,4 @@ _Tip: begin around 100-150 WPM. You'll find yourself increasing speed pretty qui
 
 _____________________________________
 ### HackDarmouth V, 2019
-### Created by Mohib Jafri, Evan Thompson, and Ryan Rose
+### Created by Mohib Jafri, Evan Thompson, and Hiromu Ryan Rose
